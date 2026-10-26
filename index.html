@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenLeaf – Organic Plant Store | Fresh Indoor Botanicals & Natural Living</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover hand-nurtured, 100% organically grown indoor plants, air-purifying greenery, and sustainable planters at GreenLeaf. Perfect for university dorms, homes, and offices.">
+  <meta name="keywords" content="organic plants, indoor plants, air purifying plants, low maintenance succulents, eco friendly planters, greenleaf plant store">
+  <meta name="author" content="GreenLeaf Organic Botanicals">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23609966'><path d='M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z'/></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="GreenLeaf Home">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+          </svg>
+        </div>
+        <span>Green<span class="accent">Leaf</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#categories" class="nav-link">Plant Categories</a></li>
+          <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA & Mobile Toggle -->
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Get in Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. Hero Section
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-accent"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="dot"></span>
+          <span>100% Organically Grown Indoor Botanicals</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Breathe Life Into Your Space with <span class="highlight">Pure Organic</span> Plants
+        </h1>
+
+        <p class="hero-subtitle">
+          Hand-nurtured with chemical-free compost and sustainable care. From low-light dorm companions to lush air-purifying statement greens for homes and thriving offices.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#categories" class="btn btn-primary" id="heroExploreBtn">
+            <span>Explore Collections</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            <span>Our Organic Promise</span>
+          </a>
+        </div>
+
+        <!-- Trust Stats Bar -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Peat-free & Organic</p>
+          </div>
+          <div class="stat-item">
+            <h3>4,200+</h3>
+            <p>Homes & Desks Greened</p>
+          </div>
+          <div class="stat-item">
+            <h3>99.4%</h3>
+            <p>Thriving Plant Guarantee</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="hero-visual-wrapper">
+        <div class="hero-image-frame">
+          <img src="assets/images/hero-plant.jpg" alt="Organically potted Monstera and Fiddle Leaf Fig plants in a sunlit living room" loading="eager">
+        </div>
+
+        <!-- Floating Badge Top -->
+        <div class="floating-badge badge-top">
+          <div class="badge-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <strong>NASA Clean Air</strong>
+            <span>Filters 85% indoor toxins</span>
+          </div>
+        </div>
+
+        <!-- Floating Badge Bottom -->
+        <div class="floating-badge badge-bottom">
+          <div class="badge-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <strong>Eco Biodegradable</strong>
+            <span>Zero plastic planters</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. About GreenLeaf Section
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <!-- Visual Column -->
+      <div class="about-visual">
+        <div class="about-image-card">
+          <img src="assets/images/about-greenleaf.jpg" alt="Botanists cultivating organic houseplants inside GreenLeaf greenhouse" loading="lazy">
+        </div>
+        <div class="about-experience-card">
+          <div class="exp-num">8+ Years</div>
+          <p>Dedicated to sustainable organic botany & urban greening</p>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="about-content">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+          </svg>
+          <span>About GreenLeaf</span>
+        </div>
+
+        <h2>Grown With Love, Rooted in Pure Organic Science</h2>
+        
+        <p class="about-lead">
+          We bridge the gap between boutique organic horticulture and modern indoor spaces.
+        </p>
+
+        <p class="about-text">
+          Many small plant nurseries struggle to provide accessible online care and transparent business information. At GreenLeaf, we founded our store with a clear mission: to make organic, chemical-free house plants accessible to university students decorating dorms, homeowners enhancing air quality, and forward-thinking businesses cultivating inspiring workplaces.
+        </p>
+
+        <!-- Core Pillars Grid -->
+        <div class="pillars-grid">
+          <div class="pillar-item">
+            <div class="pillar-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4>100% Peat-Free Soil</h4>
+              <p>Formulated with organic compost, coconut coir, and beneficial microbes.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4>Non-Toxic & Pet Safe</h4>
+              <p>Clearly identified varieties that are friendly for curious cats & dogs.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4>Biodegradable Planters</h4>
+              <p>Shipped in sustainable, plastic-free fiber and artisanal earthenware pots.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4>Lifelong Care Advice</h4>
+              <p>Free plant doctor advice whenever you need guidance or tips.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#why-us" class="btn btn-dark">
+          <span>Discover Why We're Different</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. Plant Categories Section
+       ========================================================================== -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+          </svg>
+          <span>Curated Selections</span>
+        </div>
+        <h2>Explore Our Plant Categories</h2>
+        <p>Hand-picked organic varieties selected for easy indoor survival, lush foliage aesthetics, and natural air purification.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="category-filters">
+        <button class="filter-btn active" data-filter="all">All Collections</button>
+        <button class="filter-btn" data-filter="indoor">Indoor Foliage</button>
+        <button class="filter-btn" data-filter="air">Air Purifying</button>
+        <button class="filter-btn" data-filter="low-care">Low Maintenance</button>
+        <button class="filter-btn" data-filter="office">Desk & Office</button>
+      </div>
+
+      <!-- Category Cards Grid -->
+      <div class="categories-grid" id="categoriesGrid">
+        
+        <!-- Card 1: Monstera Deliciosa (Indoor Foliage) -->
+        <article class="plant-card" data-category="indoor">
+          <div class="card-media">
+            <img src="assets/images/cat-indoor.jpg" alt="Monstera Deliciosa with split tropical leaves" loading="lazy">
+            <span class="card-badge">Best Seller</span>
+            <span class="card-ideal-for">Living Rooms</span>
+          </div>
+          <div class="card-body">
+            <span class="card-category-tag">Indoor Foliage</span>
+            <h3 class="card-title">Monstera Deliciosa</h3>
+            <p class="card-desc">Iconic Swiss Cheese plant featuring large perforated glossy green leaves that make a stunning centerpiece.</p>
+            
+            <div class="card-specs">
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+                <span>Medium Light</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <span>Weekly</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Easy Care</span>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="card-price">Rs.3000 <span>/ potted</span></div>
+              <button class="btn btn-secondary btn-sm view-detail-btn" data-plant="monstera">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Snake Plant (Air Purifying) -->
+        <article class="plant-card" data-category="air">
+          <div class="card-media">
+            <img src="assets/images/cat-air-purifying.jpg" alt="Sansevieria Snake Plant and Peace Lily" loading="lazy">
+            <span class="card-badge">NASA Pick</span>
+            <span class="card-ideal-for">Bedrooms & Dorms</span>
+          </div>
+          <div class="card-body">
+            <span class="card-category-tag">Air Purifying</span>
+            <h3 class="card-title">Sansevieria Laurentii</h3>
+            <p class="card-desc">Architectural sword-like leaves banded with gold. Releases rich oxygen at night and filters benzene & formaldehyde.</p>
+            
+            <div class="card-specs">
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+                <span>Any Light</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <span>Bi-weekly</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Beginner</span>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="card-price">Rs.2500 <span>/ potted</span></div>
+              <button class="btn btn-secondary btn-sm view-detail-btn" data-plant="snake">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Succulent Trio & ZZ Plant (Low Maintenance) -->
+        <article class="plant-card" data-category="low-care">
+          <div class="card-media">
+            <img src="assets/images/cat-low-maintenance.jpg" alt="Artisanal pots of succulents on a window sill" loading="lazy">
+            <span class="card-badge">Student Favorite</span>
+            <span class="card-ideal-for">Windowsills</span>
+          </div>
+          <div class="card-body">
+            <span class="card-category-tag">Low Maintenance</span>
+            <h3 class="card-title">Artisan Succulent Trio</h3>
+            <p class="card-desc">Hardy drought-tolerant succulents in handcrafted clay pots. Requires almost zero maintenance and loves sunny desks.</p>
+            
+            <div class="card-specs">
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+                <span>Bright Sun</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <span>Monthly</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Zero Hassle</span>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="card-price">Rs.1500 <span>/ set of 3</span></div>
+              <button class="btn btn-secondary btn-sm view-detail-btn" data-plant="succulents">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: Office Desktop Bonsai & Peperomia (Desk & Office) -->
+        <article class="plant-card" data-category="office">
+          <div class="card-media">
+            <img src="assets/images/cat-office-desk.jpg" alt="Compact bonsai and desktop plant next to workstation laptop" loading="lazy">
+            <span class="card-badge">Focus Boost</span>
+            <span class="card-ideal-for">Office Desks</span>
+          </div>
+          <div class="card-body">
+            <span class="card-category-tag">Desk & Office</span>
+            <h3 class="card-title">Zen Desktop Bonsai</h3>
+            <p class="card-desc">A peaceful miniature evergreen carefully pruned to fit compact workspaces, reducing screen fatigue and stress.</p>
+            
+            <div class="card-specs">
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+                <span>Gentle Light</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <span>Mist Weekly</span>
+              </div>
+              <div class="spec-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Calming</span>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="card-price">Rs.3000 <span>/ ceramic</span></div>
+              <button class="btn btn-secondary btn-sm view-detail-btn" data-plant="bonsai">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
